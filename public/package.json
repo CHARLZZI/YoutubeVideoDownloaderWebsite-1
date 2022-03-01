@@ -1,0 +1,25 @@
+{
+  "name": "ytvideodownloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "YtD.js",
+  "scripts": {
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SingleSimha/YoutubeVideoDownloaderWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SingleSimha/YoutubeVideoDownloaderWebsite/issues"
+  },
+  "homepage": "https://github.com/SingleSimha/YoutubeVideoDownloaderWebsite#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
