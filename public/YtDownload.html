@@ -13,10 +13,10 @@
     
     <main>
         <h1>YOUTUBE VIDEO DOWNLOADER</h1>
-        <form action="/ytUrl" method="POST">
+        <form>
             <label> ENTER URL :  </label>
             <input type="url" name="url" class="ytUrl" required>
-            <button class="submit-btn" id="submit-btn" type="submit">SUBMIT</button>
+            <button class="submit-btn" id="submit-btn" type="button" onclick="getVideoInfo()">SUBMIT</button>
         </form>
         
         <button class="red" onClick="location.href='./index.html'">Go to main</button>

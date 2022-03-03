@@ -4,7 +4,7 @@
   "description": "",
   "main": "YtD.js",
   "scripts": {
-    "start":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/SingleSimha/YoutubeVideoDownloaderWebsite#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "express-validation": "^3.0.8",
+    "ffmpeg-static": "^5.0.0",
+    "lodash": "^4.17.21",
+    "sanitize-filename": "^1.6.3",
+    "ytdl-core": "^4.10.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
